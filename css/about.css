@@ -1,0 +1,85 @@
+@media (min-width: 320px) {
+    .about {
+        width: 288px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin: 0 auto;
+        background-color: #000000;
+    }
+
+
+    .about__img {
+        margin-bottom: 30px;
+    }
+
+    .about__title {
+        margin: 0;
+        text-align: left;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        color: #F8F8F8;
+    }
+
+    .about__paragraph {
+        padding-bottom: 50px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #F8F8F8;
+    }
+
+    .about__video-wrapper {
+        padding-bottom: 50px;
+    }
+
+    .about__video {
+        display: block;
+        width: 288px;
+        height: 161px;
+        border: 1px solid white;
+    }
+
+    .about__paragraph {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #F8F8F8;
+    }
+
+    .about-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 70px;
+    }
+
+    .about-list__item {
+        width: 136px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-list__paragraph {
+        text-align: center;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        background: linear-gradient(180deg, #A7641E 0%, #DAAC3A 57.08%, #B16B25 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}

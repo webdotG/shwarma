@@ -1,0 +1,81 @@
+@media (min-width: 320px) {
+
+    .find-us {
+        width: 320px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        background: #000000;
+    }
+
+    .find-us__title {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 25px;
+        margin: 0;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #F8F8F8;
+        background-color: #000000;;
+
+    }
+
+    .find-us__map {
+        width: 320px;
+    }
+
+    .find-us__address {
+        padding-top: 30px;
+    }
+
+    .find-us__no-business {
+        padding-bottom: 70px;
+    }
+
+    .find-us__address,
+    .find-us__tel,
+    .find-us__business,
+    .find-us__no-business {
+        padding-bottom: 20px;
+        padding-left: 16px;
+    }
+
+    .find-us__address-title,
+    .find-us__tel-title,
+    .find-us__business-title,
+    .find-us__no-business-title {
+        margin: 0;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        background: linear-gradient(180deg, #A7641E 0%, #DAAC3A 57.08%, #B16B25 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .find-us__address-paragraph,
+    .find-us__tel-paragraph,
+    .find-us__business-paragraph,
+    .find-us__no-business-paragraph {
+        margin: 0;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        background: linear-gradient(90.35deg, #885B41 0%, #B56A1F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}

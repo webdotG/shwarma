@@ -1,0 +1,75 @@
+@media (min-width: 320px) {
+
+    .reviews {
+        width: 288px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 261px;
+        margin: 0 auto;
+        background-image: url("../img/reviews__back--mobile.png");
+        background-position-x: 167px;
+        background-position-y: 0;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .reviews-title {
+        margin: 0;
+        padding-top: 102px;
+        padding-bottom: 20px;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 100%;
+        color: #564A43;
+    }
+
+    .reviews-title--second {
+        margin: 0;
+        padding-bottom: 50px;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+        color: #564A43;
+    }
+
+    .reviews-list__item {
+        margin-bottom: 50px;
+    }
+
+    .reviews-list__item-title {
+        margin: 0;
+        padding-bottom: 6px;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        color: #564A43;
+    }
+
+    .reviews-paragraph {
+        padding-bottom: 16px;
+    }
+
+    .reviews-paragraph,
+    .reviews-source,
+    .reviews-source--place {
+        margin: 0;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #564A43;
+    }
+
+    .reviwes__background-img{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

@@ -1,0 +1,317 @@
+@media (min-width: 320px) {
+
+    .text-gold {
+        background: linear-gradient(180deg, #885B41 0%, #B56A1F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    header {
+        width: auto;
+        height: 607px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        margin: 0 auto;
+        background-image: url("../img/header__background--mobile.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .header-nav {
+        width: 288px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .burger-btn {
+        display: block;
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .burger-btn__line {
+        display: block;
+        width: 23px;
+        height: 2px;
+        background: linear-gradient(120.64deg, #A7641E 1.24%, #DAAC3A 57.22%, #B16B25 99.3%);
+        position: relative;
+    }
+
+    .burger-btn__line::before,
+    .burger-btn__line::after {
+        content: "";
+        display: block;
+        width: 23px;
+        height: 2px;
+        background: linear-gradient(120.64deg, #A7641E 1.24%, #DAAC3A 57.22%, #B16B25 99.3%);
+        position: absolute;
+    }
+
+    .burger-btn__line::before {
+        top: -10px;
+        left: 0;
+    }
+
+    .burger-btn__line::after {
+        bottom: -10px;
+        left: 0;
+    }
+
+    /*------------------------------------------------------------------------header nav pop up------------------------*/
+    .header-nav__mobile-wrapper {
+        width: 100%;
+        position: absolute;
+        bottom: -465px;
+    }
+
+    .header-nav__list {
+        padding-top: 40px;
+    }
+
+    .header-nav__item {
+        padding-bottom: 20px;
+    }
+
+    .header-nav__link {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        line-height: 120%;
+        color: #F8F8F8;
+    }
+
+    .header-social__list {
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+    .header-social__item {
+        margin-right: 20px;
+    }
+
+    .header-social__link--job {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 32px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-family: 'Bebas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        color: #000000;
+        background-image: url("../img/header-social__link-job.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .opening-hours__first-paragraph,
+    .opening-hours__second-paragraph {
+        margin: 0;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .quality-department {
+        padding-top: 20px;
+    }
+
+    .quality-department__link {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        background: linear-gradient(180deg, #844D13 0%, #EAB83D 57.08%, #794511 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .quality-department__paragraph {
+        margin: 0;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .legal-adress {
+        padding-top: 40px;
+    }
+
+    .legal-adress__paragraph-first,
+    .legal-adress__paragraph-second {
+        margin: 0;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .rights-reserved {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .rights-reserved__paragraph {
+        margin: 0;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .actual-price__new-price {
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 100%;
+        background: linear-gradient(180deg, #A7641E 0%, #DAAC3A 57.08%, #B16B25 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    /*-----------------------------------------------------------------------------header gallery----------------------------*/
+
+    .header-gallery{
+        width: 288px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin: 0 auto;
+    }
+    .header-gallery__item {
+        padding-top: 76px;
+    }
+
+    .header-gallery__title {
+        margin: 0;
+        padding-bottom: 10px;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        color: #F8F8F8;
+    }
+
+    .header-gallery__paragraph {
+        margin: 0;
+        padding-bottom: 30px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #F8F8F8;
+    }
+
+    .actual-price__wrapper {
+        display: flex;
+        padding-bottom: 30px;
+        position: relative;
+    }
+
+    .actual-price__mass-food,
+    .actual-price__old-price {
+        margin: 0;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+        background: linear-gradient(180deg, #885B41 0%, #B56A1F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .actual-price__new-price {
+        margin: 0;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 100%;
+        background: linear-gradient(180deg, #A7641E 0%, #DAAC3A 57.08%, #B16B25 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .actual-price__mass-food {
+        padding-left: 20px;
+    }
+
+    .actual-price__old-price {
+        position: absolute;
+        bottom: 36px;
+        right: 101px;
+    }
+
+    .actual-price__old-price::after {
+        content: "";
+        display: block;
+        width: 55px;
+        height: 2px;
+        position: absolute;
+        top: 11px;
+        left: -6px;
+        background: linear-gradient(90deg, #563C2D 0%, #6C4217 100%);
+        transform: rotate(-16deg);
+    }
+
+    .header-gallery__btn-wrapper {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-gallery__btn-first,
+    .header-gallery__btn-second,
+    .header-gallery__btn-third {
+        display: block;
+        width: 8px;
+        height: 8px;
+        border: none;
+        border-radius: 50%;
+        background: linear-gradient(90deg, #563C2D 0%, #6C4217 100%);
+        cursor: pointer;
+    }
+
+    .header-gallery__btn--active {
+        background: linear-gradient(90deg, #FBBF0E -0.21%, #D99813 62.08%, #C58216 99.79%);
+
+
+    }
+
+    .header-gallery__btn-first,
+    .header-gallery__btn-second {
+        margin-right: 8px;
+    }
+}

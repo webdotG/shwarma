@@ -1,0 +1,47 @@
+@media (min-width: 320px) {
+
+    .delivery-list__wrapper {
+        width: 288px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0 auto;
+        background-color: #000000;
+    }
+
+    .delivery-list__link {
+        width: 288px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+    .delivery-list__link--delivery-club {
+        margin-bottom: 10px;
+        background: #0EC645;
+        background-image: url("../img/delivery__delivery-club--back.png");
+        background-repeat: no-repeat;
+        background-position-x: 200px;
+        background-position-y: 14px;
+    }
+
+    .delivery-list__link--yourself {
+        margin-bottom: 10px;
+        background: #F8F8F8;
+        background-image: url("../img/delivery__yourself--back.png");
+        background-repeat: no-repeat;
+        background-position-x: 0;
+        background-position-y: 23px;
+    }
+
+    .delivery-list__link--yandex-food {
+        background: #FCE000;
+        background-image: url("../img/delivery__yandex-food--back.png");
+        background-repeat: no-repeat;
+        background-position-x: 182px;
+        background-position-y: 12px;
+    }
+}
